@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+}
+.header{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	position:relative;
+	top: 2%;
+	right: 0%;
+	left: 0%;
+	
+}
+#navbar{
+ margin-left: 30px
+}
+.menu{
+	width: 30px;
+	position: absolute;
+	right: 19px;
+	cursor: pointer;
+}
+.down-arrow{
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+	margin-left: 10px;
+}
+
+.section-1{
+	background:linear-gradient(rgba(0,0,0,0.5),#a3663b), url(images/women.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	position: relative;
+	top: 0%;
+	right: 0;
+	left: 0;
+	color: #fff;
+}
+.left{
+	
+	margin-top: 30px;
+	margin-left: 30px;
+	font-family: arial;
+}
+.better{
+	padding-top: 20px;
+	font-size: 35px;
+    margin-bottom: 9px;
+}
+.work{
+	font-size: 22px;
+    margin-bottom: 20px;
+}
+.learn-btn{
+	width: 130px;
+	font-size: 20px;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 40px;
+	padding-left: 9px;
+	cursor: pointer;
+}
+.app{
+	width: 200px;
+	margin: 50px 0px;
+	margin-right: 10px;
+}
+.section-2{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	right: 0;
+	left: 0;
+	padding-top: 0;
+	padding-bottom:10rem ;
+	text-align: center;
+}
+.hyer-work{
+	color: rgb(80, 77, 77);
+	font-size: 30px;
+	margin: 30px auto;
+	font-size: 43px;
+	font-weight: 500;
+}
+.hyer-sub{
+	margin-top: 30px;
+	font-size: 23px;
+	width: 600px;
+	color: rgb(114, 108, 108);
+}
+.benifit{
+	display: flex;
+	
+}
+.benifits-image{
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+}
+.right{
+	border-top: 1px solid black;
+	color: rgb(114, 108, 108);
+	margin-left: 30px;
+}
+.buisness-benifits{
+	font-size: 30px;
+	color: rgb(74, 70, 70);
+}
+.containers{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.task-image{
+	margin-right: 30px;
+	
+}
+.task-image:nth-of-type(odd){
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+	cursor: pointer;	
+}
+.task-image:hover{
+	filter: none;
+	
+}
+.schedule-btn{
+	margin-top: 30px;
+	font-size: 25px;
+	font-weight: 100;
+	border: 1px solid rgb(109, 105, 105);
+	width: 240px;
+	padding: 10px;
+	color: rgb(74, 70, 70);
+	border-radius: 30px;
+	cursor: pointer;
+    transition: 0.5s;
+	
+}
+.schedule-btn:hover{
+	background-color: rgb(74, 45, 108);
+	color: #fff;
+}
+.Tasker-Benefits{
+	display: flex;
+	margin-top: 100px;
+	background-color: rgb(77, 121, 172);
+	color: white ;
+	justify-content: space-between;
+}
+.tasker-img{
+	width: 400px;
+	height: 300px;
+	object-fit: fill;
+}
+.left-sec{
+	margin: 20px;
+}
+.tasker-images{
+	display: flex;
+	margin: 30px;
+	align-items: center;
+}
+.Tasker{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.tasks-img{
+	width: 60px;
+	margin-right: 30px;
+	filter: saturate(5);
+	border-radius: 2px solid rgb(77, 121, 172);
+   cursor: pointer;
+}
+.tasks-img:hover{
+	filter: sepia(100%); 
+}
+#learn-btn{
+	margin-top: 90px;
+	font-size: 22px;
+	width: 200px;
+	padding: 19px 12px;
+	padding-left: 39px;
+}
+#learn-btn:hover{
+	background-color: white;
+	color: rgb(77, 121, 172);
+}
+.learn-btn:hover{
+	background-color: white;
+	color: rgb(77, 121, 172);
+}
+.section-3{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 100px;
+	align-items: center;
+}
+.hyer{
+	color: rgb(114, 108, 108);
+	font-size: 30px;
+	margin: 20px auto;
+	font-size: 43px;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+#App{
+	width: 200px;
+	margin-top: 10px;
+    cursor: pointer;
+    transition: 1.5s;
+	
+}
+#App:hover{
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+.section-4{
+	margin-top: 20px;
+	background:linear-gradient(45deg,rgba(163, 113, 194, 0.355),#6c5198), url(images/high-five.jpg);
+	width: 100%;
+	height: 50vh;
+	object-fit: cover;
+	background-size: cover;
+}
+.back{
+	display: flex;
+	margin: 30px;
+    font-size: 22px;
+	justify-content: space-between;
+	align-items: center;
+}
+.box-2{
+	margin-top: 100px;
+	color: #fff;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+
+}
+.num{
+	font-size: 50px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.section-5{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 100px;
+	align-items: center;
+	
+}
+.partners{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.companies{
+	margin: 20px;
+}
+.brand{
+	margin-right: 19px;
+	margin-bottom: 19px;
+}
+
+@media  (min-width:500px) {
+	.brand{
+        width: 200px;
+	}
+}
+
+.peoples-talks{
+	background: linear-gradient(0deg,rgba(255, 255, 255, 0.4),rgb(226, 226, 217)),url(images/phone.jpg);
+	background-size: cover;
+}
+#talk{
+	color: black;
+}
+#peoples{
+	color: black;
+	opacity: 0.8;
+	font-size: 16px;
+}
+.sub{
+  margin-top: 20px;
+  font-size: 14px;
+  padding-bottom: 70px;
+}
+.hyer-Life{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hyer-life{
+	width: 350px;
+	margin-top: 60px;
+    
+}
+.help-wanted{
+	width: 100%;
+	height: 40vh;
+	object-fit: cover;
+	
+}
+.help-shortage{
+	font-size: 22px;
+	margin-left: 10px;
+	color: rgb(70, 66, 66);
+}
+#sub{
+	margin-left: 10px;
+	font-size: 19px;
+	color: gray;
+}
+.sectoon-6{
+	margin-top: 30px;
+	display: flex;
+	position: relative;
+}
+.community-section{
+	display: flex;
+	background-color: #eeeeeef7;
+	position: absolute;
+    margin-top: 50px;
+	right: 0;
+	left: 0;	
+}
+.HYER{
+	margin-top: 50px;
+	margin-left: 30px;
+	font-size: 20px;
+	color: rgb(82, 78, 78);
+	font-weight: bold;
+}
+
+.main{
+	margin: 30px;
+	display: flex;
+}
+
+.main ul li a{
+	list-style: none;
+	color: gray;
+	text-decoration: none;
+}
+.main ul{
+	list-style: none;
+}
+.follow{
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+	color: orangered;
+	cursor: pointer;
+}
+.follow:hover{
+	color: black;
+}
+.cookies{
+	background-color: rgb(77, 121, 172);
+	position: fixed;
+	bottom: 0;
+}
+.btn{
+	font-size: 14px;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 20px;
+	background-color: rgb(77, 121, 172);
+	margin: 10px;
+	padding: 9px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: white;
+	color:rgb(77, 121, 172);
+}
+.kookie{
+	margin: 20px;
+	color: #fff;
+}
